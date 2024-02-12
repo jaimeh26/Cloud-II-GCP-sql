@@ -3,3 +3,6 @@ variable "deletion_protection" {
   type = bool
   default = true
 }
+variable "projectid" {
+  type = string
+}
