@@ -7,3 +7,4 @@ module "sql-db" {
   version = "19.0.0"
   project_id = var.projectid
   name = var.name
+  database_version = "POSTGRES_15"
