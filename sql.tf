@@ -10,3 +10,8 @@ module "sql-db" {
   database_version = "POSTGRES_15"
   region = var.region
   deletion_protection = var.deletion_protection
+
+  settings {
+    tier = "db-f1-micro"
+  }
+}
