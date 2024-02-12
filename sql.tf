@@ -6,8 +6,6 @@ module "sql-db" {
   project_id = var.projectid
   name = var.name
   database_version = "POSTGRES_15"
-  region = var.region
-  deletion_protection = var.deletion_protection
 }
   
 
