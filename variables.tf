@@ -12,3 +12,6 @@ variable "region" {
 variable "name" {
   type = string
 }
+variable "database_version" {
+  type = string
+}
