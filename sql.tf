@@ -1,5 +1,5 @@
 provider "google" {
-  project = "certain-beach-391616"
+  project = var.projectid
   region  = var.region
 }
 module "sql-db" {
