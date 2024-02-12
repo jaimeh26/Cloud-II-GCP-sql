@@ -3,7 +3,7 @@ terraform {
     organization = "jaimeh26"
 
     workspaces {
-      name = "gcp-test-examples"
+      name = "Cloud-II-GCP-sql"
     }
   }
 }
