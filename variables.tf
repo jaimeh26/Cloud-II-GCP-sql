@@ -6,7 +6,7 @@ variable "projectid" {
   type = string
 }
 variable "region" {
-  description = "The region to create the buckets in"
+  description = "The region to create the sql instance"
   }
 variable "name" {
   type = string
