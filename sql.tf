@@ -1,6 +1,6 @@
 provider "google" {
   project = var.projectid
-  region  = var.region
+  region  = "us-central1"
 }
 module "sql-db" {
   source  = "GoogleCloudPlatform/sql-db/google"
