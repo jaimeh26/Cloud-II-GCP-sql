@@ -6,3 +6,6 @@ variable "deletion_protection" {
 variable "projectid" {
   type = string
 }
+variable "region" {
+  description = "The region to create the buckets in"
+  }
