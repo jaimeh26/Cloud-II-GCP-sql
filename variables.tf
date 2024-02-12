@@ -8,3 +8,6 @@ variable "projectid" {
 variable "region" {
   description = "The region to create the buckets in"
   }
+variable "name" {
+  type = string
+}
